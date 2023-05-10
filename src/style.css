@@ -1,0 +1,59 @@
+h3{
+  color: white;
+  text-align: center 
+}
+h4{
+  color: white;
+  text-align: center 
+}
+p{
+  color: white;
+  text-align: center 
+}
+
+body {
+  background-image: url('https://serasa.certificadodigital.com.br/wp-content/uploads/2017/05/Criptografia_592x240.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+textarea {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-right: 10px;
+  text-align: center; 
+}
+
+
+/* Adiciona sombra à imagem de fundo */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(0,0,0,0.5);
+}
